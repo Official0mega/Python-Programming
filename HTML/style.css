@@ -1,0 +1,53 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: lightgray;
+	font-size: 2rem;
+	padding: 0.2rem 0.5rem;
+	width: 100%;
+	height: 3rem;
+}
+
+nav {
+	background-color: tomato;
+	padding-left: 0.5rem;
+	width: 100%;
+	height: 2rem;
+}
+
+nav > ul {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	height: 100%;
+}
+
+nav > ul > li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 500;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+main {
+	background-color: skyblue;
+	width: 100%;
+	padding: 0.2rem 0.5rem;
+	height: calc(100vh - 8rem);
+}
+
+footer {
+	height: 3rem;
+	background-color: darkgray;
+	color: white;
+	padding: 0.2rem 0.5rem;
+}

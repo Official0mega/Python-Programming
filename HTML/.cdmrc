@@ -1,0 +1,2 @@
+tabs: ['index.html']
+terminals: ['static-server -p 1337 --no-cache']
